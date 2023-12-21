@@ -20,7 +20,7 @@ Install node.js and follow the prompts
 N/A
 
 ## Links
-- Walkthrough video - 
+- Walkthrough video - https://github.com/dtran44/SVG-Logo-Maker/blob/main/Untitled_%20Dec%2022%2C%202023%201_15%20AM.webm
 
 ## References
 - Basic Shapes (2023) https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes
