@@ -59,7 +59,7 @@ function writeToFile(fileName, data) {
       console.error(err);
       return;
     }
-    console.log(`${fileName} has been created successfully.`);
+    console.log(`Generated ${fileName}`);
   });
 }
 
