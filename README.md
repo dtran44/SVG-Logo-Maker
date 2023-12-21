@@ -21,7 +21,7 @@ N/A
 
 ## Links
 - Walkthrough video - ![alt text](https://github.com/dtran44/SVG-Logo-Maker/blob/main/Untitled_%20Dec%2022%2C%202023%201_15%20AM.webm)
-- Logo.svg file - ![alt text](
+- Logo.svg file - ![alt text](https://github.com/dtran44/SVG-Logo-Maker/blob/main/logo.svg)
 
 ## References
 - Basic Shapes (2023) https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes
