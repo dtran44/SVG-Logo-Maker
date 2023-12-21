@@ -20,7 +20,7 @@ Install node.js and follow the prompts
 N/A
 
 ## Links
-- Walkthrough video - ![alt text](https://github.com/dtran44/SVG-Logo-Maker/blob/main/Untitled_%20Dec%2022%2C%202023%201_15%20AM.webm)
+- Walkthrough video - to download from the link here:  ![alt text](https://github.com/dtran44/SVG-Logo-Maker/blob/main/Untitled_%20Dec%2022%2C%202023%201_15%20AM.webm)
 - Logo.svg file - ![alt text](https://github.com/dtran44/SVG-Logo-Maker/blob/main/logo.svg)
 
 ## References
