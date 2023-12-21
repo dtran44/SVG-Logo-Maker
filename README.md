@@ -11,18 +11,15 @@ The goal of this project was to generate a simple logo using command in-line pro
 
 
 ## Installation
-
-N/A
+Installation of node.js and jest required
 
 ## Usage
-N/A
+Install node.js and follow the prompts
 
 ## License
-
 N/A
 
 ## Links
-
 - Walkthrough video - 
 
 ## References
