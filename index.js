@@ -3,6 +3,10 @@ const fs = require('fs');
 
 const prompt = inquirer.createPromptModule();
 
+const Circle = require('./lib/circle');
+const Triangle = require('./lib/triangle');
+const Square = require('./lib/square');
+
 // Array of questions
 const questions = [
   {
@@ -66,8 +70,26 @@ function writeToFile(fileName, data) {
 // Function to initialise the application
 function init() {
   prompt(questions).then((answers) => {
-    const shapeSVG = createShapes(answers);
-    writeToFile('logo.svg', shapeSVG); 
+    let shapeSVG = '';
+    switch (answers.shape) {
+      case 'circle':
+        const circle = new Circle(answers.text, answers.textColour, answers.shapeColour);
+        shapeSVG = circle.generateSVG();
+        break;
+      case 'triangle':
+        const triangle = new Triangle(answers.text, answers.textColour, answers.shapeColour);
+        shapeSVG = triangle.generateSVG();
+        break;
+      case 'square':
+        const square = new Square(answers.text, answers.textColour, answers.shapeColour);
+        shapeSVG = square.generateSVG();
+        break;
+      default:
+        console.log('Invalid shape choice');
+        return;
+    }
+
+    writeToFile('logo.svg', shapeSVG);
   });
 }
 
