@@ -1,11 +1,9 @@
 # SVG-Logo-Maker
 
 ## Description
-The goal of this project was to generate a quality README file by using a command-line application. Specifically, I learnt how to: 
+The goal of this project was to generate a simple logo using command in-line prompts for the design of the logo. Specifically, I learnt how to: 
 
-- Install and use node.js 
-- Use node.js to create prompts for the user 
-- Create a function to write the README file and to initialise the inquirer 
+- 
 
 
 ## Installation

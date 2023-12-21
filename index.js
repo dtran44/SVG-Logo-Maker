@@ -5,7 +5,7 @@ const prompt = inquirer.createPromptModule();
 
 const Circle = require('./lib/circle');
 const Triangle = require('./lib/triangle');
-const Square = require('./lib/square');
+const Square = require('./lib/square'); 
 
 // Array of questions
 const questions = [
